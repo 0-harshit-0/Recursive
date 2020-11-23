@@ -1,0 +1,42 @@
+*{
+	font-family: 'Texturina', serif;
+	user-select: none;
+}
+body{
+	overflow: hidden;
+	margin: 0px;
+}
+
+header{
+	padding: 1%;
+	font-size: 1.3vmax;
+	text-align: center;
+	float: left;
+	height: 100vh;
+	color: gray;
+}
+h1{
+	margin: 0%;
+}
+li{
+	
+	margin: 0px;
+	cursor: pointer;
+	transition: 0.3s linear;
+}
+li:hover {
+	color: black;
+}
+
+input{
+	width: 5vmax;
+}
+
+canvas{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: solid;
+}
+
